@@ -1,0 +1,5 @@
+function countSheeps(sheep) {
+  const numberOfSheep = sheep.filter(sheep => sheep === true).length;
+
+  return numberOfSheep;
+}

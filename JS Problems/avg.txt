@@ -1,0 +1,9 @@
+function getAverage(marks){
+  var n=marks.length;
+  var sum=0;
+   for(var i=0;i<n;i++)
+     {
+       sum=sum+marks[i];
+     }
+  return Math.floor(sum/n);
+}

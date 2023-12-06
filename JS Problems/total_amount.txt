@@ -1,0 +1,16 @@
+function points(games) {
+  var value=0;
+  var count=0;
+  for(var i=0;i<games.length;i++)
+    {
+      value=games[i];
+      var part=value.split(":");
+      if(part[0]>part[1])
+        count=count+3;
+      else if(part[0]==part[1])
+        count=count+1;
+      else
+        count=count+0;
+    }
+  return count;
+}

@@ -1,0 +1,14 @@
+function getCount(str) {
+  let arrayname = new Array();
+  arrayname=str.split("");
+  var n=arrayname.length;
+  var num=0;
+  for(var i=0;i<n;i++)
+    {
+      if(arrayname[i]=='a' || arrayname[i]=='e' || arrayname[i]=='i' || arrayname[i]=='o' || arrayname[i]=='u')
+        {
+          num++;
+        }
+    }
+  return num;
+}
